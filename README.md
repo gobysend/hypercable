@@ -79,6 +79,10 @@ Shortest transaction:           0.00
 
 ## production setup
 
+* Delete `config/credentials.yml.enc` file
+* Regenerate master.key and credentials.yml.enc file by
+* EDITOR="vim" bin/rails credentials:edit
+
 * git clone 
 * edit .env.production
 * docker-compose -f docker-compose.production.yaml run rails  rake db:migrate
