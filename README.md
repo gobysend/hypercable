@@ -73,7 +73,7 @@ Shortest transaction:           0.00
 * start: docker-compose up
 * stop: docker-compose stop
 * run migration: docker-compose run rails rake db:migrate
-* collcetor location: http://localhost:8000
+* collector location: http://localhost:8000
 * open http://localhost:3333
 
 
